@@ -1,0 +1,55 @@
+body {
+    height: 100dvh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 16px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results-container {
+    height: 200px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.buttons-container {
+    height: 100%;
+    margin: 20px;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#btn-clear,
+#btn-delete {
+    height: 70px;
+    width: 170px;
+}
+
+#btn-clear {
+    background-color: rgb(187, 217, 228);
+}
+
+#btn-delete {
+    background-color: rgb(243, 170, 170);
+}
