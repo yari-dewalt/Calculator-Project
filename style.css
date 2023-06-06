@@ -20,6 +20,9 @@ body {
     margin: 20px;
     border: 2px solid black;
     border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .buttons-container {
@@ -52,4 +55,9 @@ button {
 
 #btn-delete {
     background-color: rgb(243, 170, 170);
+}
+
+p {
+    margin: 0;
+    font-size: 48px;
 }
